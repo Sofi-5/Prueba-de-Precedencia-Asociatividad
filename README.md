@@ -15,12 +15,12 @@ Este repositorio contiene dos gramáticas en ANTLR (Expr.g4 y ExprChanged.g4) y 
 
 Este repositorio contiene **dos implementaciones en ANTLR4** de un pequeño lenguaje de expresiones aritméticas:
 
-1. **`Expr.g4`**: Gramática **original**, con reglas de precedencia y asociatividad *convencionales* (como en la mayoría de lenguajes de programación).
-2. **`ExprChanged.g4`**: Gramática **modificada**, con reglas *intencionalmente alteradas* para demostrar cómo los cambios en la gramática afectan la evaluación.
+1. **`Expr.g4`**: Gramática **original**, con reglas de precedencia y asociatividad convencionales.
+2. **`ExprChanged.g4`**: Gramática **modificada**, con reglas intencionalmente alteradas para demostrar cómo los cambios en la gramática afectan la evaluación.
 
-Ambas incluyen un **visitor en Java** que evalúa expresiones y muestra resultados numéricos.
+Ambas incluyen un visitor en Java que evalúa expresiones y muestra resultados numéricos.
 
-El propósito es **comparar visual y numéricamente** cómo una misma cadena (como `"2+3*4"`) produce resultados **diferentes** según la gramática subyacente.
+El propósito es comparar visual y numéricamente cómo una misma cadena (como `"2+3*4"`) produce resultados diferentes según la gramática.
 
 ---
 
@@ -43,11 +43,11 @@ El propósito es **comparar visual y numéricamente** cómo una misma cadena (co
 
 ## Requisitos
 
-- **Java 8 o superior**
-- **ANTLR 4.13+** (puedes usar el JAR completo)
+- Java 8 o superior
+- ANTLR 4.13+ 
 - Sistema operativo: Windows, macOS o Linux
 
-> Descarga el JAR de ANTLR desde: https://www.antlr.org/download.html  
+> Descargar el JAR de ANTLR desde: https://www.antlr.org/download.html  
 > (Ej: `antlr-4.13.1-complete.jar`)
 
 ---
